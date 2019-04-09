@@ -9,9 +9,7 @@ def summon_captain_planet(calls)
 end
 
 def long_planeteer_calls(array)
-  if array.any? { |word| word.length > 4 } == false
-    return nil
-  end
+  array.any? { |word| word.length > 4 }
 end
 
 def find_the_cheese(snacks)
