@@ -20,6 +20,6 @@ def find_the_cheese(snacks)
     return nil
   end
   if snacks.include?(cheese_types) == true
-    return true
+    return snacks.first
   end
 end
