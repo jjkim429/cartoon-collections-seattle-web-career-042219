@@ -1,9 +1,8 @@
 def roll_call_dwarves(dwarves)
   list = []
-  dwarves.each_with_index { |item, index| 
-    list[item] = index
-  }
-  puts list
+  counter = 1
+  dwarves.each do |x|
+    
 end
 
 def summon_captain_planet# code an argument here
