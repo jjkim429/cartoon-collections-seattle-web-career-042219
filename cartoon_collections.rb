@@ -2,7 +2,7 @@ def roll_call_dwarves(dwarves)
   list = []
   counter = 1
   dwarves.each do |x|
-    
+    list.push ()
 end
 
 def summon_captain_planet# code an argument here
