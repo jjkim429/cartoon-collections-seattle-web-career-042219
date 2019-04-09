@@ -1,9 +1,6 @@
 def roll_call_dwarves(dwarves)
-  list = []
-  counter = 1
-  dwarves.each do |x|
-    list << "#{counter}. #{dwarves[counter - 1]}"
-    counter += 1
+  dwarves.each_with_index do |name, index|
+    puts "#{index+1}. #{name}"
   end
   list.join
 end
